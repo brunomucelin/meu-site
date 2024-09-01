@@ -1,0 +1,92 @@
+/* Definir o fundo da página */
+body {
+    background-color: #f0f0f0; /* Cinza bem claro */
+    font-family: Arial, sans-serif; /* Fonte principal e alternativa */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+}
+
+/* Estilizar o box em cada section */
+section {
+    background-color: #b4b4b4; /* Fundo cinza claro */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px auto; /* Espaçamento externo e centralização */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    max-width: 800px; /* Largura máxima */
+}
+
+/* Estilizar o cabeçalho e a navegação */
+header {
+    text-align: center; /* Centraliza o texto */
+    background-color: #8d8d8d; /* Cor de fundo */
+    color: rgb(223, 218, 218); /* Cor do texto */
+    padding: 20px 0; /* Espaçamento interno */
+}
+
+header nav ul {
+    list-style-type: none; /* Remove os marcadores */
+    padding: 0; /* Remove o padding */
+    margin: 0; /* Remove a margem */
+    text-align: center; /* Centraliza a lista */
+}
+
+header nav ul li {
+    display: inline; /* Exibe os itens na horizontal */
+    margin: 0 15px; /* Espaçamento entre itens */
+}
+
+header nav ul li a {
+    color: rgb(223, 218, 218); /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Fonte em negrito */
+}
+
+header nav ul li a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+/* Estilizar o rodapé */
+footer {
+    background-color: #8d8d8d; /* Cor de fundo */
+    color: rgb(223, 218, 218); /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 2px 0; /* Espaçamento interno */
+    position: fixed; /* Fixa na parte inferior */
+    bottom: 0; /* Posiciona no fundo da página */
+    width: 100%; /* Largura total */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra acima */
+}
+
+/* Adicionar estilo para o formulário */
+form {
+    display: flex; /* Layout flexível */
+    flex-direction: column; /* Orientação vertical */
+    max-width: 600px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza o formulário */
+}
+
+form label {
+    margin: 10px 0 5px; /* Espaçamento em torno dos rótulos */
+}
+
+form input, form textarea {
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    border: 1px solid #ccc; /* Borda cinza claro */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+form button {
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    background-color: #8d8d8d; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+}
+
+form button:hover {
+    background-color: #6c6c6c; /* Cor de fundo ao passar o mouse */
+}
